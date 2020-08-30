@@ -11,12 +11,12 @@
 # (Using that method instead of site.owner, in case your posts get cloned with your repo.)
 
 # Site settings
-title: _site name_
-description: _description_
+title: Raphaël LEBER
+description: Engineer, teacher, researcher, pastor, husband, daddy, skier, tech fan, robot maker ... and so much more !
 owner:
-  name: _your name_ # or company name
+  name: Raphaël LEBER # or company name
   url: "http://example.com" # your URL
-first_published: 2010 # if migrating another site, the year of your first publish
+first_published: 2019 # if migrating another site, the year of your first publish
                       # Must be a 4-digit integer year (math is used on it)
 url: "http://example.com" # the base hostname & protocol for this site
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -28,20 +28,22 @@ lang: en-us # used in HTML lang attributes
 # on landing page
 # - set the greeting only if you want to display the first green section
 greeting:
-  title: _Your greeting_  
-  text: _Your detailed greeting text_
+  title: Welcome on my website  
+  text: On this website you will find a summary of my work portfolio, but also some of my teachings, things about me, and the services I can deliver for your business. So click on the menu in the top right corner
+
+
+
+        You can also jump on one of the links below
+
 # - displayed at the bottom
-closing-head: _Your closing_
-closing-para: _Your detailed closing_
+closing-head: Contact me ?
+closing-para: I'm eager to collaborate on intersting projects
 
 # on all pages (and the first three you list display with greeting, if included)
 social:
-  twitter: https://twitter.com/_username_
-  github: https://github.com/_username_
-  linkedin-square: https://linkedin.com/in/_username_
-  facebook-official: https://facebook.com/_username_
-  google-plus-square: https://plus.google.com/u/0/+_username_
-  email: /contact/ # you can configure and use this contact page or use your email addy
+  github: https://github.com/m0rph03nix
+  linkedin-square: https://www.linkedin.com/in/raphael-leber-2b184422
+  #email: raphael.leber@cpe.fr # you can configure and use this contact page or use your email addy
   #flickr:
   #instagram:
   #youtube-square:

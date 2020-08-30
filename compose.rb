@@ -49,6 +49,7 @@ to accept the default you can just hit return.)
 This site has two types of posts:
 - Topics: blog posts
 - Works: portfolio entries
+- Service : !!!! TEST !!!
 
 eoh
 type = ''
@@ -75,6 +76,21 @@ want it to have a priority under 0.5. What priority should it have?
     if priority == '' then priority = '0.7' end
     break
   end
+elsif type=='s'
+    categories << 'service'
+    puts <<-eoh
+  
+  Higher priority service are listed first and also get the same priority value
+  for the site map. 1.0 is the highest possible value, and you probably don't
+  want it to have a priority under 0.5. What priority should it have?
+    eoh
+    priority = ''
+    while true
+      priority = getinput("(0 - 1.0)", "0.7")
+      unless (priority == '' or (priority.to_f >= 0.0 and priority.to_f <= 1.0)) then redo end
+      if priority == '' then priority = '0.7' end
+      break
+    end
 else
   categories << 'topics'
   puts <<-eoh
