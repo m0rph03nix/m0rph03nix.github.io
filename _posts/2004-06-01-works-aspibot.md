@@ -12,15 +12,15 @@ tags:
 ---
 
 
-#### Full design of vaccuum cleaning robot (at 17 years old)
+#### Full design of vacuum cleaning robot (at 17 years old)
 
-In 2004, a vacuum cleaning robot was rather a dream than a product on shelf ! 
+In 2004, a vacuum cleaning robot was rather a dream than a product on shelf! 
 
 <hr />
 
 {% include post_picwrap.html pos="left" src="/images/AspiBot/dessu1.jpg" %} 
-So I thought... why not doing one ?
-Also I had the opportunity to prepare an optionnal project for the Bacalaureate, and for the first time in 2004 it could be in robotics !
+So I thought... why not do one?
+Also I had the opportunity to prepare an optional project for the Baccalaureate, and for the first time in 2004 it could be in robotics! I caught the opportunity! Here are a few steps of my work.
 
 <hr />
 
