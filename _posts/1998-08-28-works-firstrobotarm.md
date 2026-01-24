@@ -14,7 +14,7 @@ tags:
 
 #### Story of my first robot started at 12 years old!
 This is my first "big" robotics project. At that time, there was no Arduino and no YouTube tutorials... we were in 1998. I was 12 when I started, 13 when I finished.
-I did a 3 DoF robot arm + gripper... but unfortunately, I cannot find any picture (argentic at this time) with my realization and we are now 20 years later :(
+I did a 3 DoF robot arm + gripper... but unfortunately, I cannot find any picture (film photography at this time) decades later :( .
 Just imagine:
 
 - Robot links were done with old wood frames of my family home.
