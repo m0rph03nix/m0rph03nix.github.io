@@ -1,6 +1,6 @@
 ---
 priority: 0.6
-title: My first robot arm (at 12-13)
+title: My first robot arm (at 12-13 years old)
 excerpt: A 3 DoF robot arm + gripper from scratch !
 categories: works
 background-image: works-sample.png
