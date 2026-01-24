@@ -29,7 +29,7 @@ lang: en-us # used in HTML lang attributes
 # - set the greeting only if you want to display the first green section
 greeting:
   title: Welcome on my website  
-  text: "**Website under construction... Nothing interresting for the moment**  
+  text: "**Website under construction... But you can already find a few things...**  
 
 
         On this website you will find a summary of my work portfolio, but also some of my teachings, things about me, and the services I can deliver for your business. So click on the menu in the top right corner
