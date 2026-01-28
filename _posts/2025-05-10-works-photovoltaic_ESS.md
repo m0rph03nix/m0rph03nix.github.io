@@ -24,7 +24,7 @@ tags:
 
 ### ESS installation
 
-{% include post_picwrap.html pos="left" src="/images/ESS/elec.jpg" %} 
+{% include post_picwrap.html pos="left" src="/images/ESS/elec_full.jpg" %} 
 Here is the architecture I designed and installed. It was verified and validated by Sunteq:
 - VICTRON SmartSolar MPPT RS 450/100-MC4 (using 2 MPPT lines of 3kWp each)
 - VICTRON MultiPlus-II GX 48/5000/70-50 230V (I'm not using the GX part in the end)
