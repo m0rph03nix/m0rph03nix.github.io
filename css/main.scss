@@ -2369,6 +2369,7 @@ $baseurl: '{{ site.baseurl }}/images';
      }
   }
 
-{% if site.custom_extensions == 'yes' %}
+{% if site.custom_extensions %}
 {% include _my/custom.scss %}
 {% endif %}
+

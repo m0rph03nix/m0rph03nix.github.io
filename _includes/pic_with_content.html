@@ -1,0 +1,10 @@
+{% capture content_html %}{{ include.content }}{% endcapture %}
+
+<div class="flex-pic-wrapper flex-pic-{{ include.pos | default: 'left' }}">
+  <div class="flex-pic-image">
+    <img src="{{ include.src | prepend: site.baseurl }}" alt="{{ include.alt }}" />
+  </div>
+  <div class="flex-pic-content">
+    {{ content_html | markdownify }}
+  </div>
+</div>

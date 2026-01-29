@@ -1,0 +1,71 @@
+// Amélioration de la typographie pour TOUT le contenu
+.wrapper .inner,
+section .inner,
+.inner {
+  p, li {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    font-size: 1.1em !important; // 10% plus grand - appliqué uniquement à p et li
+    line-height: 1.7 !important; // Meilleure lisibilité
+  }
+  
+  li {
+    margin-bottom: 0.5em; // Espace entre les items
+  }
+}
+
+// Flexbox pour image + contenu côte à côte - SOLUTION PROPRE
+.flex-pic-wrapper {
+  display: flex;
+  gap: 3em;
+  margin-bottom: 2em;
+  align-items: flex-start;
+  
+  .flex-pic-image {
+    flex: 0 0 40%; // Même taille que post_picwrap (40%)
+    max-width: 40%; // Aligné avec .image.left/.right
+    
+    img {
+      width: 100%;
+      height: auto; // Garde les proportions naturelles
+      border-radius: 3px;
+    }
+  }
+  
+  .flex-pic-content {
+    flex: 1;
+    
+    p, ul {
+      margin-left: 0;
+    }
+    
+    ul {
+      padding-left: 2em;
+    }
+    
+    li {
+      padding-left: 0.5em;
+    }
+  }
+  
+  &.flex-pic-left {
+    flex-direction: row;
+  }
+  
+  &.flex-pic-right {
+    flex-direction: row-reverse;
+  }
+  
+  // Responsive
+  @media screen and (max-width: 768px) {
+    flex-direction: column !important;
+    
+    .flex-pic-image {
+      flex: 1 1 100%;
+      max-width: 100%;
+      
+      img {
+        max-height: none; // Pas de limite sur mobile
+      }
+    }
+  }
+}
