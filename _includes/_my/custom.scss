@@ -18,7 +18,7 @@ section .inner,
   display: flex;
   gap: 3em;
   margin-bottom: 2em;
-  align-items: flex-start;
+  align-items: center;
   
   .flex-pic-image {
     flex: 0 0 40%; // Même taille que post_picwrap (40%)
