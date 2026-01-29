@@ -12,9 +12,9 @@ tags:
 ---
 
 
-I always dreamd about a grid-tied photovoltaic system with backup capability. However most grid-tied installations ([98%](https://www.solaireoccitanie.fr/details-installation+solaire+en+autoconsommation+autonome+en+cas+de+coupure+de+reseau+a+toulouse-91)) must shut down during a grid failure to comply with anti-islanding protection (IEC 62116 / EN 50549-1). 
+I always dreamed about a grid-tied photovoltaic system with backup capability. Most grid-tied installations ([98%](https://www.solaireoccitanie.fr/details-installation+solaire+en+autoconsommation+autonome+en+cas+de+coupure+de+reseau+a+toulouse-91)) must shut down during a grid failure to comply with anti-islanding protection regulations (IEC 62116 / EN 50549-1).
 
-My system features the Victron MultiPlus-II, which incorporates a two-point disconnection relay that ensures complete electrical isolation from the grid during outages, allowing it to safely operate in island mode and continue powering the house from photovoltaic/batteries without any risk of backfeeding into the grid.
+My system achieves backup capability while remaining fully compliant with these safety standards. The Victron MultiPlus-II incorporates a two-point disconnection relay that ensures complete electrical isolation from the grid during outages, meeting all anti-islanding requirements. Once isolated, it can safely operate in island mode, continuing to power the house from photovoltaic/batteries without any risk of backfeeding into the grid.
 
 ## Solar panels
 
