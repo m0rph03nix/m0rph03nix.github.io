@@ -1,6 +1,7 @@
 ---
 title: Robocup retrospective
 excerpt: A little look backwards in time
+background-image: RoboCup/Focus.JPG
 categories:
   - topics
   - my topic group
@@ -37,9 +38,9 @@ Ressources :
 
 ## 2023 - OPL in Bordeaux
 
-![Bordeaux](/images/RoboCup/Bordeaux.jpg)
-
 This year, the media were very interested in RoboCup because it was held in France. We spent a lot of energy running the new competition tests with the new PALbator hardware and software architecture... maybe with too much ambition !
+
+![Bordeaux](/images/RoboCup/Bordeaux.jpg)
 
 Ressources :
 - [Qualif 2023](https://www.youtube.com/watch?v=AjR0zq83TIY)
@@ -51,6 +52,8 @@ Ressources :
 
 ## 2024 - OPL in Eindhoven
 Except an unexpected "docker prune" just before ou competition slot... we were quite happy of our job there. Because of that we did not as good as expected... but our consolation was to have a better rank than the EPFL team ^^.
+
+![Eindhoven](/images/RoboCup/Eindhoven.jpg)
 
 Ressources :
 - [TDP 2024](https://athome.robocup.org/wp-content/uploads/OPL-LyonTech_TDP__Home_OPL_2024.pdf)
